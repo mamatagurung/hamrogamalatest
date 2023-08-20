@@ -1,0 +1,112 @@
+.header-middle .header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-middle {
+  padding: 0px !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.header__func {
+  display: flex;
+  align-items: center;
+}
+.header__func svg {
+  width: 20px;
+}
+.header-logo img {
+  height: 100px;
+  width: 100%;
+}
+.header__nav ul li {
+  padding: 20px;
+}
+.header__search {
+  margin-right: 20px;
+}
+.header__cart {
+  margin-right: 20px;
+}
+/* footer css */
+.flex__container {
+  display: flex;
+  align-items: center;
+}
+.subscribe__container {
+  background: #163925;
+  width: 80%;
+  margin: auto;
+  padding: 20px 30px;
+}
+.subscribe__wrapper {
+  margin-right: 20px;
+}
+.subscribe__wrapper--icon {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.flex__container svg {
+  width: 25px;
+}
+.subscribe__wrapper--content h4 {
+  font-size: 15px;
+  margin: 0px;
+  color: #fff;
+}
+.subscribe__wrapper--content a {
+  font-size: 13px;
+  color: #fff;
+}
+.subscribe {
+  position: relative;
+  z-index: 1000;
+}
+/* footer section css */
+footer {
+  background-image: url("/custom/images/footer.png");
+  margin-top: -30px;
+  position: relative;
+  padding: 60px 0px 50px 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.footer__content--title h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.footer__content--links ul li a {
+  color: #fff;
+  font-size: 15px;
+}
+.footer__content--links ul {
+  padding-left: 0px;
+}
+.footer__content--links ul li {
+  list-style-type: none;
+  margin-bottom: 11px;
+}
+.footer__content--links ul li a img {
+  width: 30px;
+  height: auto;
+}
+
+.footer__credentials {
+  background: #163925;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 10px 40px;
+}
+.footer__credentials p{
+  color: white;
+  margin-bottom: 0;
+  font-size: 15px;
+}
